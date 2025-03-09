@@ -1,0 +1,46 @@
+/* Media Query for larger screens */
+@media screen and (min-width: 768px) {
+    #hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+    
+    header, nav, main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        display: block; /* Always show nav on larger screens */
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav li {
+        flex: 1;
+        text-align: center;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    
+    h1 {
+        grid-column: 1 / -1;
+    }
+    
+    .certificate {
+        grid-column: 1 / -1;
+    }
+    
+    #courses-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+}
