@@ -5,7 +5,7 @@
     "phone": "(123) 456-7890",
     "website": "https://abctech.com",
     "image": "images/abc-tech.jpg",
-    "membership": 3
+    "membership": "Gold"
   },
   {
     "name": "Green Valley Farms",
@@ -13,6 +13,6 @@
     "phone": "(987) 654-3210",
     "website": "https://greenvalleyfarms.com",
     "image": "images/green-valley.jpg",
-    "membership": 2
+    "membership": "Silver"
   }
 ]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome | Chamber of Commerce | Massango V. Moukouelle</title>
+        <meta name="description" content="Welcome to the Chamber of Commerce. Get involved with your local business community." />
+        <meta name="author" content="Massango V. Moukouelle" />
+
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+        <!-- Open Graph Meta for Facebook -->
+        <meta property="og:title" content="Chamber of Commerce Home" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="images/social-preview.jpg" />
+        <meta property="og:url" content="https://maval6.github.io/wdd231/chamber/" />
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/directory.css" />
+        <link rel="stylesheet" href="styles/home.css" />
+
+        <!-- JavaScript -->
+        <script defer src="scripts/home.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Chamber of Commerce</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <img src="images/hero.png" alt="Community gathering" />
+                <div class="hero-text">
+                    <h2>Welcome to the Chamber</h2>
+                    <a href="#" class="cta-button">Join the Chamber</a>
+                </div>
+            </section>
+
+            <div class="main-wrapper">
+            <!-- Current Events -->
+            <section class="events">
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li><strong>April 10:</strong> Business Networking Brunch</li>
+                    <li><strong>April 18:</strong> Local Market Day</li>
+                </ul>
+            </section>
+
+            <!-- Weather Section -->
+            <section class="weather">
+                <h2>Local Weather</h2>
+                <div id="weather-info">
+                    <!-- Current weather and forecast will be injected here -->
+                </div>
+            </section>
+
+            <!-- Spotlight Section -->
+            <section class="spotlights">
+                <h2>Business Spotlights</h2>
+                <div id="spotlight-container" class="spotlight-grid">
+                    <!-- Spotlight cards will be dynamically inserted here -->
+                </div>
+            </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Chamber of Commerce | Massango V. Moukouelle | WDD 231</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </footer>
+    </body>
+</html>
