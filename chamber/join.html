@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join the Chamber | Massango V. Moukouelle</title>
+  <meta name="description" content="Apply for membership to the Chamber of Commerce" />
+  <meta name="author" content="Massango V. Moukouelle" />
+
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/directory.css" />
+  <link rel="stylesheet" href="styles/join.css" />
+
+  <script defer src="scripts/join.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Join the Chamber</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html" class="active">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="join-container">
+    <form method="get" action="thankyou.html" id="membershipForm">
+      <fieldset>
+        <legend>Membership Application</legend>
+
+        <label>First Name
+          <input type="text" name="first-name" title="Enter your first name" autocomplete="given-name" required />
+        </label>
+
+        <label>Last Name
+          <input type="text" name="last-name" title="Enter your last name" autocomplete="family-name" required />
+        </label>
+
+        <label>Title in Organization
+          <input type="text" name="org-title" title="Your title in the organization" autocomplete="organization-title" pattern="[A-Za-z\\s\\-]{7,}" />
+        </label>
+
+        <label>Email
+          <input type="email" name="email" title="Enter a valid email address" autocomplete="email" placeholder="example@email.com" required />
+        </label>
+
+        <label>Mobile Phone
+          <input type="tel" name="phone" title="Enter your mobile number" autocomplete="tel" required />
+        </label>
+
+        <label>Organization Name
+          <input type="text" name="organization" title="Enter your business or organization name" autocomplete="organization" required />
+        </label>
+
+        <label>Membership Level
+          <select name="membership" title="Choose membership level" required>
+            <option value="">Select a level</option>
+            <option value="NP">NP Membership (Free)</option>
+            <option value="Bronze">Bronze</option>
+            <option value="Silver">Silver</option>
+            <option value="Gold">Gold</option>
+          </select>
+        </label>
+
+        <label>Business Description
+          <textarea name="description" title="Brief description of your business or organization"></textarea>
+        </label>
+
+        <input type="hidden" name="timestamp" id="timestamp" />
+        <input type="submit" value="Apply for Membership" />
+      </fieldset>
+    </form>
+
+    <!-- Membership Level Cards -->
+    <aside class="membership-cards">
+      <div class="card np" onclick="openModal('npModal')">
+        <h3>NP Membership</h3>
+        <a href="#npModal">See Benefits</a>
+      </div>
+      <div class="card bronze" onclick="openModal('bronzeModal')">
+        <h3>Bronze</h3>
+        <a href="#bronzeModal">See Benefits</a>
+      </div>
+      <div class="card silver" onclick="openModal('silverModal')">
+        <h3>Silver</h3>
+        <a href="#silverModal">See Benefits</a>
+      </div>
+      <div class="card gold" onclick="openModal('goldModal')">
+        <h3>Gold</h3>
+        <a href="#goldModal">See Benefits</a>
+      </div>
+    </aside>
+
+    <!-- Membership Modals -->
+    <dialog id="npModal">
+      <h3>NP Membership Benefits</h3>
+      <ul>
+        <li>No cost</li>
+        <li>Access to newsletters</li>
+      </ul>
+      <button onclick="closeModal('npModal')">Close</button>
+    </dialog>
+
+    <dialog id="bronzeModal">
+      <h3>Bronze Membership Benefits</h3>
+      <ul>
+        <li>Community event invites</li>
+        <li>Member listing on website</li>
+      </ul>
+      <button onclick="closeModal('bronzeModal')">Close</button>
+    </dialog>
+
+    <dialog id="silverModal">
+      <h3>Silver Membership Benefits</h3>
+      <ul>
+        <li>All Bronze benefits</li>
+        <li>Featured business articles</li>
+      </ul>
+      <button onclick="closeModal('silverModal')">Close</button>
+    </dialog>
+
+    <dialog id="goldModal">
+      <h3>Gold Membership Benefits</h3>
+      <ul>
+        <li>All Silver benefits</li>
+        <li>Homepage spotlight</li>
+        <li>Sponsorship opportunities</li>
+      </ul>
+      <button onclick="closeModal('goldModal')">Close</button>
+    </dialog>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chamber of Commerce | Massango V. Moukouelle | WDD 231</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
