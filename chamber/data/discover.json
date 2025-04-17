@@ -1,0 +1,60 @@
+{
+  "places": [
+    {
+      "name": "Heritage Museum",
+      "image": "heritage.webp",
+      "address": "123 Culture Blvd",
+      "description": "A museum dedicated to preserving local heritage and history.",
+      "link": "https://example.com/heritage"
+    },
+    {
+      "name": "Botanical Gardens",
+      "image": "gardens.webp",
+      "address": "456 Green St",
+      "description": "Beautiful walking paths through native and exotic flora.",
+      "link": "https://example.com/gardens"
+    },
+    {
+      "name": "Central Library",
+      "image": "library.webp",
+      "address": "789 Book Ln",
+      "description": "Modern library with community programs and tech access.",
+      "link": "https://example.com/library"
+    },
+    {
+      "name": "Riverside Park",
+      "image": "riverside.webp",
+      "address": "101 River Rd",
+      "description": "A peaceful park along the river, perfect for picnics and walks.",
+      "link": "https://example.com/park"
+    },
+    {
+      "name": "Art Gallery",
+      "image": "gallery.webp",
+      "address": "321 Canvas Ct",
+      "description": "Showcasing local artists and interactive exhibits.",
+      "link": "https://example.com/gallery"
+    },
+    {
+      "name": "Farmer's Market",
+      "image": "market.webp",
+      "address": "159 Garden Ave",
+      "description": "Weekly market offering fresh produce and handmade goods.",
+      "link": "https://example.com/market"
+    },
+    {
+      "name": "Aquatic Center",
+      "image": "aquatic.webp",
+      "address": "753 Swim Blvd",
+      "description": "Family-friendly swimming and water fitness facility.",
+      "link": "https://example.com/aquatic"
+    },
+    {
+      "name": "Tech Innovation Hub",
+      "image": "techhub.webp",
+      "address": "202 Startup Way",
+      "description": "Collaborative space for startups and workshops.",
+      "link": "https://example.com/techhub"
+    }
+  ]
+}

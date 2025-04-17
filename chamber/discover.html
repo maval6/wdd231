@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover | Chamber of Commerce</title>
+  <meta name="description" content="Discover local places of interest in our Chamber of Commerce region." />
+  <meta name="author" content="Massango V. Moukouelle" />
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/directory.css">
+  <link rel="stylesheet" href="styles/discover.css">
+  <script defer src="scripts/discover.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Chamber of Commerce</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="discover-grid">
+    <aside class="sidebar">
+      <h2>Welcome!</h2>
+      <p id="visit-message">Loading visit info...</p>
+    </aside>
+
+    <section class="main-content">
+      <h2>Explore Local Attractions</h2>
+      <div id="discover-cards" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Chamber of Commerce | Massango V. Moukouelle | WDD 231</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
