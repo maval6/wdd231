@@ -35,9 +35,7 @@ async function initFeaturedDestinations() {
 
 // Initialize weather widget
 async function initWeatherWidget() {
-    try {
-        // For demo, use static weather data
-        // In production, you would use a real weather API
+    try {      
         const response = await fetch('./data/weather.json');
         if (!response.ok) {
             throw new Error('Failed to fetch weather data');

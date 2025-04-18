@@ -61,19 +61,14 @@ function formatLastUpdated(timestamp) {
 }
 
 /**
- * Fetches real weather data from a weather API
- * Note: This function is not used in the demo version as we're using static data
- * In a real implementation, you would use an API key and make actual API calls
  * @param {String} city - City name
  * @returns {Promise} - Promise resolving to weather data
  */
 export async function fetchWeatherData(city) {
     try {
-        // This is a placeholder for a real API call
-        // In a real implementation, you would use something like:
-        // const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=YOUR_API_KEY`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=d534abf3dabf1d93f9874772328bd8c7`);
         
-        // For demonstration purposes, we'll throw an error that this is not implemented
+        
         throw new Error('Live weather API integration not implemented in demo version');
     } catch (error) {
         console.error('Error fetching weather data:', error);

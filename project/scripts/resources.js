@@ -238,7 +238,7 @@ function handleVisaForm(event) {
     const nationalityText = document.getElementById('nationality').options[document.getElementById('nationality').selectedIndex].text;
     const destinationText = document.getElementById('destination').options[document.getElementById('destination').selectedIndex].text;
     
-    // In a real app, this would make an API call to get visa requirements
+    // this would make an API call to get visa requirements
     // For demo purposes, we'll generate a simulated response
     
     // Simulate visa requirement based on country codes (just for demo)
@@ -282,7 +282,7 @@ function handleCurrencyForm(event) {
     const fromCurrencyText = fromCurrency;
     const toCurrencyText = toCurrency;
     
-    // In a real app, this would make an API call to get current exchange rates
+    // this would make an API call to get current exchange rates
     // For demo purposes, we'll use a simulated rate
     
     // Generate a random conversion rate between 0.5 and 2
