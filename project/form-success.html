@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Form submission success page for Global Gateway Travel Services.">
+    <meta name="author" content="Massango V. Moukouelle">
+    
+    <title>Form Submitted | Global Gateway Travel Services</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Global Gateway Travel Services Logo">
+                <h1>Global Gateway</h1>
+            </div>
+            <nav>
+                <button id="hamburger-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul id="primary-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="resources.html">Travel Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="form-success-container container">
+        <section class="form-success">
+            <h2>Form Submitted Successfully!</h2>
+            <div id="form-data-display">
+                <!-- Form data will be displayed here by JavaScript -->
+                <p>Thank you for your submission. Below are the details you provided:</p>
+            </div>
+            <div class="action-buttons">
+                <a href="javascript:history.back()" class="btn-secondary">Go Back</a>
+                <a href="index.html" class="btn">Return to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-nav">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="resources.html">Travel Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@globalgatewaytravel.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2025 Global Gateway Travel Services. All rights reserved.</p>
+            <p>Designed and developed by Massango V. Moukouelle</p>
+            <p><a href="attributions.html">Attributions</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts/form-success.js"></script>
+</body>
+</html>

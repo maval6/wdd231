@@ -1,0 +1,102 @@
+[
+  {
+    "code": "US",
+    "name": "United States"
+  },
+  {
+    "code": "JP",
+    "name": "Japan"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom"
+  },
+  {
+    "code": "FR",
+    "name": "France"
+  },
+  {
+    "code": "DE",
+    "name": "Germany"
+  },
+  {
+    "code": "IT",
+    "name": "Italy"
+  },
+  {
+    "code": "CA",
+    "name": "Canada"
+  },
+  {
+    "code": "AU",
+    "name": "Australia"
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand"
+  },
+  {
+    "code": "CN",
+    "name": "China"
+  },
+  {
+    "code": "IN",
+    "name": "India"
+  },
+  {
+    "code": "BR",
+    "name": "Brazil"
+  },
+  {
+    "code": "MX",
+    "name": "Mexico"
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore"
+  },
+  {
+    "code": "ES",
+    "name": "Spain"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal"
+  },
+  {
+    "code": "GR",
+    "name": "Greece"
+  },
+  {
+    "code": "TH",
+    "name": "Thailand"
+  },
+  {
+    "code": "PE",
+    "name": "Peru"
+  },
+  {
+    "code": "EG",
+    "name": "Egypt"
+  },
+  {
+    "code": "MA",
+    "name": "Morocco"
+  },
+  {
+    "code": "TR",
+    "name": "Turkey"
+  },
+  {
+    "code": "IS",
+    "name": "Iceland"
+  }
+]

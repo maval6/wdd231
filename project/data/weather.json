@@ -1,0 +1,50 @@
+[
+  {
+    "location": "Tokyo, Japan",
+    "temperature": 24,
+    "unit": "C",
+    "description": "Partly Cloudy",
+    "icon": "images/weather/partly-cloudy.png",
+    "lastUpdated": "2025-04-17T12:00:00Z"
+  },
+  {
+    "location": "Paris, France",
+    "temperature": 18,
+    "unit": "C",
+    "description": "Sunny",
+    "icon": "images/weather/sunny.png",
+    "lastUpdated": "2025-04-17T12:00:00Z"
+  },
+  {
+    "location": "New York, USA",
+    "temperature": 15,
+    "unit": "C",
+    "description": "Cloudy",
+    "icon": "images/weather/cloudy.png",
+    "lastUpdated": "2025-04-17T12:00:00Z"
+  },
+  {
+    "location": "Sydney, Australia",
+    "temperature": 22,
+    "unit": "C",
+    "description": "Clear",
+    "icon": "images/weather/clear.png",
+    "lastUpdated": "2025-04-17T12:00:00Z"
+  },
+  {
+    "location": "Cairo, Egypt",
+    "temperature": 30,
+    "unit": "C",
+    "description": "Sunny",
+    "icon": "images/weather/sunny.png",
+    "lastUpdated": "2025-04-17T12:00:00Z"
+  },
+  {
+    "location": "Rio de Janeiro, Brazil",
+    "temperature": 28,
+    "unit": "C",
+    "description": "Partly Cloudy",
+    "icon": "images/weather/partly-cloudy.png",
+    "lastUpdated": "2025-04-17T12:00:00Z"
+  }
+]

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Access essential travel resources including visa requirements, currency converter, travel planning tools, and expert travel tips.">
+    <meta name="author" content="Massango V. Moukouelle">
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Global Gateway Travel Services - Travel Resources">
+    <meta property="og:description" content="Essential travel resources including visa information, currency converter, and travel planning tools.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://globalgatewaytravel.com/resources.html">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <title>Travel Resources | Global Gateway Travel Services</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Global Gateway Travel Services Logo">
+                <h1>Global Gateway</h1>
+            </div>
+            <nav>
+                <button id="hamburger-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul id="primary-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="resources.html" class="active">Travel Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="banner-content">
+                <h2>Travel Resources</h2>
+                <p>Essential tools and information for your international adventures</p>
+            </div>
+        </section>
+
+        <section class="visa-tool container">
+            <h2>Visa Requirement Lookup</h2>
+            <p>Check visa requirements for your nationality and destination.</p>
+            <form id="visa-form" class="resource-form">
+                <div class="form-group">
+                    <label for="nationality">Your Nationality:</label>
+                    <select id="nationality" required>
+                        <option value="">Select your nationality</option>
+                        <!-- Dynamically populated via JavaScript -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="destination">Destination Country:</label>
+                    <select id="destination" required>
+                        <option value="">Select destination</option>
+                        <!-- Dynamically populated via JavaScript -->
+                    </select>
+                </div>
+                <button type="submit" class="btn">Check Requirements</button>
+            </form>
+            <div id="visa-results" class="results-container">
+                <!-- Results will be displayed here -->
+            </div>
+        </section>
+
+        <section class="currency-converter container">
+            <h2>Currency Converter</h2>
+            <p>Convert between world currencies with up-to-date exchange rates.</p>
+            <form id="currency-form" class="resource-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="amount">Amount:</label>
+                        <input type="number" id="amount" min="0" step="0.01" value="100" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="from-currency">From:</label>
+                        <select id="from-currency" required>
+                            <option value="">Select currency</option>
+                            <!-- Dynamically populated via JavaScript -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="to-currency">To:</label>
+                        <select id="to-currency" required>
+                            <option value="">Select currency</option>
+                            <!-- Dynamically populated via JavaScript -->
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn">Convert</button>
+            </form>
+            <div id="conversion-result" class="results-container">
+                <!-- Results will be displayed here -->
+            </div>
+        </section>
+
+        <section class="travel-planner container">
+            <h2>Travel Planner</h2>
+            <p>Plan your trip and save your preferences for future reference.</p>
+            <form id="travel-planner-form" class="resource-form" action="form-success.html" method="get">
+                <div class="form-group">
+                    <label for="trip-name">Trip Name:</label>
+                    <input type="text" id="trip-name" name="trip-name" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="departure-date">Departure Date:</label>
+                        <input type="date" id="departure-date" name="departure-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="return-date">Return Date:</label>
+                        <input type="date" id="return-date" name="return-date" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="destination-country">Destination:</label>
+                    <input type="text" id="destination-country" name="destination-country" required>
+                </div>
+                <div class="form-group">
+                    <label for="travelers">Number of Travelers:</label>
+                    <input type="number" id="travelers" name="travelers" min="1" value="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="trip-type">Trip Type:</label>
+                    <select id="trip-type" name="trip-type" required>
+                        <option value="">Select trip type</option>
+                        <option value="leisure">Leisure</option>
+                        <option value="business">Business</option>
+                        <option value="family">Family Visit</option>
+                        <option value="educational">Educational</option>
+                        <option value="adventure">Adventure</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Estimated Budget ($):</label>
+                    <input type="number" id="budget" name="budget" min="0" step="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Trip Notes:</label>
+                    <textarea id="notes" name="notes" rows="4"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn">Save Trip Plan</button>
+                    <button type="button" id="save-draft" class="btn-secondary">Save Draft</button>
+                </div>
+            </form>
+            <div id="saved-trips" class="saved-trips">
+                <h3>Your Saved Trip Drafts</h3>
+                <div id="trips-container">
+                    <!-- Saved trips loaded from localStorage -->
+                    <p class="no-trips-message">No saved trip drafts yet.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="travel-tips container">
+            <h2>Essential Travel Tips</h2>
+            <div class="tips-container">
+                <div class="tip-card">
+                    <h3>Packing Essentials</h3>
+                    <ul>
+                        <li>Travel adapter for your electronics</li>
+                        <li>Photocopies of important documents</li>
+                        <li>Basic first-aid kit</li>
+                        <li>Weather-appropriate clothing</li>
+                        <li>Travel-sized toiletries</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>Before You Leave</h3>
+                    <ul>
+                        <li>Register with your embassy</li>
+                        <li>Check visa requirements</li>
+                        <li>Get necessary vaccinations</li>
+                        <li>Purchase travel insurance</li>
+                        <li>Inform your bank of your travel plans</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>Staying Safe</h3>
+                    <ul>
+                        <li>Research local laws and customs</li>
+                        <li>Keep emergency contacts accessible</li>
+                        <li>Be aware of common scams</li>
+                        <li>Secure your valuables</li>
+                        <li>Stay informed about local news</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-nav">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="resources.html">Travel Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@globalgatewaytravel.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2025 Global Gateway Travel Services. All rights reserved.</p>
+            <p>Designed and developed by Massango V. Moukouelle</p>
+            <p><a href="attributions.html">Attributions</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Modules -->
+    <script src="scripts/resources.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "dest-001",
+    "name": "Kyoto",
+    "country": "Japan",
+    "region": "asia",
+    "image": "images/destinations/kyoto.jpg",
+    "shortDescription": "Ancient temples, traditional gardens, and geisha districts in Japan's former imperial capital.",
+    "fullDescription": "Kyoto, once the capital of Japan, is a city on the island of Honshu. It's famous for its numerous classical Buddhist temples, gardens, imperial palaces, Shinto shrines and traditional wooden houses. It's also known for formal traditions such as kaiseki dining, consisting of multiple courses of precise dishes, and geisha, female entertainers often found in the Gion district.",
+    "rating": 4.8,
+    "bestTimeToVisit": "March-May and October-November",
+    "language": "Japanese",
+    "currency": "Japanese Yen (JPY)",
+    "activities": [
+      "Visit Fushimi Inari Shrine",
+      "Explore Arashiyama Bamboo Grove",
+      "Tour Kinkaku-ji (Golden Pavilion)",
+      "Experience a traditional tea ceremony",
+      "Stroll through Gion district"
+    ],
+    "interests": ["cultural", "urban", "nature"]
+  },
+  {
+    "id": "dest-002",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "region": "africa",
+    "image": "images/destinations/cape-town.jpg",
+    "shortDescription": "Stunning coastal city with Table Mountain, vibrant culture, and diverse wildlife.",
+    "fullDescription": "Cape Town is a port city on South Africa's southwest coast, on a peninsula beneath the imposing Table Mountain. Slowly rotating cable cars climb to the mountain's flat top, from which there are sweeping views of the city, the busy harbor and boats heading for Robben Island, the notorious prison that once held Nelson Mandela, which is now a living museum.",
+    "rating": 4.7,
+    "bestTimeToVisit": "October to April",
+    "language": "English, Afrikaans, Xhosa",
+    "currency": "South African Rand (ZAR)",
+    "activities": [
+      "Hike Table Mountain",
+      "Visit Robben Island",
+      "Explore Victoria & Alfred Waterfront",
+      "Tour Cape Winelands",
+      "See African penguins at Boulders Beach"
+    ],
+    "interests": ["adventure", "cultural", "beach", "nature"]
+  },
+  {
+    "id": "dest-003",
+    "name": "Barcelona",
+    "country": "Spain",
+    "region": "europe",
+    "image": "images/destinations/barcelona.jpg",
+    "shortDescription": "Vibrant coastal city known for stunning architecture, exceptional food, and lively culture.",
+    "fullDescription": "Barcelona, the cosmopolitan capital of Spain's Catalonia region, is known for its art and architecture. The fantastical Sagrada Família church and other modernist landmarks designed by Antoni Gaudí dot the city. Museu Picasso and Fundació Joan Miró feature modern art by their namesakes. City history museum MUHBA includes several Roman archaeological sites.",
+    "rating": 4.6,
+    "bestTimeToVisit": "May to June and September to October",
+    "language": "Spanish, Catalan",
+    "currency": "Euro (EUR)",
+    "activities": [
+      "Tour La Sagrada Família",
+      "Stroll down Las Ramblas",
+      "Visit Park Güell",
+      "Enjoy local cuisine at La Boqueria Market",
+      "Relax at Barceloneta Beach"
+    ],
+    "interests": ["cultural", "urban", "beach", "food"]
+  },
+  {
+    "id": "dest-004",
+    "name": "Machu Picchu",
+    "country": "Peru",
+    "region": "south-america",
+    "image": "images/destinations/machu-picchu.jpg",
+    "shortDescription": "Iconic Incan citadel set high in the Andes Mountains, surrounded by terraced slopes.",
+    "fullDescription": "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it's renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.",
+    "rating": 4.9,
+    "bestTimeToVisit": "April to October (dry season)",
+    "language": "Spanish, Quechua",
+    "currency": "Peruvian Sol (PEN)",
+    "activities": [
+      "Hike the Inca Trail",
+      "Explore the ancient ruins",
+      "Visit the Temple of the Sun",
+      "Climb Huayna Picchu",
+      "Learn about Incan history"
+    ],
+    "interests": ["adventure", "cultural", "nature"]
+  },
+  {
+    "id": "dest-005",
+    "name": "Santorini",
+    "country": "Greece",
+    "region": "europe",
+    "image": "images/destinations/santorini.jpg",
+    "shortDescription": "Breathtaking island with blue-domed churches, white-washed buildings, and spectacular sunsets.",
+    "fullDescription": "Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. The whitewashed, cubiform houses of its two principal towns, Fira and Oia, cling to cliffs above an underwater caldera (crater). They overlook the sea, small islands to the west and beaches made up of black, red and white lava pebbles.",
+    "rating": 4.7,
+    "bestTimeToVisit": "April to early June, or September to October",
+    "language": "Greek",
+    "currency": "Euro (EUR)",
+    "activities": [
+      "Watch the sunset in Oia",
+      "Explore ancient Thira",
+      "Visit black sand beaches",
+      "Tour local wineries",
+      "Sail around the caldera"
+    ],
+    "interests": ["beach", "cultural", "food"]
+  },
+  {
+    "id": "dest-006",
+    "name": "New York City",
+    "country": "United States",
+    "region": "north-america",
+    "image": "images/destinations/new-york.jpg",
+    "shortDescription": "Iconic metropolis known for its skyscrapers, arts scene, and cultural diversity.",
+    "fullDescription": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that's among the world's major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.",
+    "rating": 4.6,
+    "bestTimeToVisit": "April to June and September to November",
+    "language": "English",
+    "currency": "US Dollar (USD)",
+    "activities": [
+      "Visit Times Square",
+      "Explore Central Park",
+      "See the Statue of Liberty",
+      "Tour the Metropolitan Museum of Art",
+      "Walk across Brooklyn Bridge"
+    ],
+    "interests": ["urban", "cultural", "food"]
+  },
+  {
+    "id": "dest-007",
+    "name": "Great Barrier Reef",
+    "country": "Australia",
+    "region": "oceania",
+    "image": "images/destinations/great-barrier-reef.jpg",
+    "shortDescription": "World's largest coral reef system, home to diverse marine life and vibrant underwater ecosystems.",
+    "fullDescription": "The Great Barrier Reef is the world's largest coral reef system composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometers over an area of approximately 344,400 square kilometers. The reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+    "rating": 4.8,
+    "bestTimeToVisit": "June to October",
+    "language": "English",
+    "currency": "Australian Dollar (AUD)",
+    "activities": [
+      "Snorkeling",
+      "Scuba diving",
+      "Sailing",
+      "Helicopter tours",
+      "Glass-bottom boat tours"
+    ],
+    "interests": ["adventure", "nature", "beach"]
+  },
+  {
+    "id": "dest-008",
+    "name": "Cairo",
+    "country": "Egypt",
+    "region": "africa",
+    "image": "images/destinations/cairo.jpg",
+    "shortDescription": "Ancient city showcasing the majestic Pyramids of Giza and rich Egyptian heritage.",
+    "fullDescription": "Cairo, Egypt's sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities including royal mummies and gilded King Tutankhamun artifacts. Nearby, Giza is the site of the iconic pyramids and Great Sphinx, dating to the 26th century BC. In Gezira Island's leafy Zamalek district, 187m Cairo Tower affords panoramic city views.",
+    "rating": 4.5,
+    "bestTimeToVisit": "October to April",
+    "language": "Arabic",
+    "currency": "Egyptian Pound (EGP)",
+    "activities": [
+      "Visit the Pyramids of Giza",
+      "Explore the Egyptian Museum",
+      "Shop at Khan el-Khalili bazaar",
+      "Tour Islamic Cairo",
+      "Take a Nile River cruise"
+    ],
+    "interests": ["cultural", "adventure"]
+  },
+  {
+    "id": "dest-009",
+    "name": "Banff National Park",
+    "country": "Canada",
+    "region": "north-america",
+    "image": "images/destinations/banff.jpg",
+    "shortDescription": "Spectacular mountain scenery with turquoise lakes, glaciers, and abundant wildlife.",
+    "fullDescription": "Banff National Park is Canada's oldest national park and was established in 1885. Located in the Rocky Mountains, the park encompasses 6,641 square kilometers of mountainous terrain, with numerous glaciers and ice fields, dense coniferous forest, and alpine landscapes. The park is renowned for its stunning natural beauty, diverse wildlife, and outdoor recreational opportunities.",
+    "rating": 4.9,
+    "bestTimeToVisit": "June to August and December to March",
+    "language": "English, French",
+    "currency": "Canadian Dollar (CAD)",
+    "activities": [
+      "Hiking scenic trails",
+      "Wildlife watching",
+      "Canoeing on Lake Louise",
+      "Skiing and snowboarding",
+      "Relaxing in hot springs"
+    ],
+    "interests": ["adventure", "nature"]
+  },
+  {
+    "id": "dest-010",
+    "name": "Bali",
+    "country": "Indonesia",
+    "region": "asia",
+    "image": "images/destinations/bali.jpg",
+    "shortDescription": "Tropical paradise with lush rice terraces, sacred temples, and vibrant arts scene.",
+    "fullDescription": "Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak, Sanur and Nusa Dua are popular resort towns. The island is also known for its yoga and meditation retreats.",
+    "rating": 4.6,
+    "bestTimeToVisit": "April to October (dry season)",
+    "language": "Indonesian, Balinese",
+    "currency": "Indonesian Rupiah (IDR)",
+    "activities": [
+      "Visit Ubud's Monkey Forest",
+      "Explore Tanah Lot Temple",
+      "Relax on Kuta Beach",
+      "Tour rice terraces",
+      "Experience traditional dance performances"
+    ],
+    "interests": ["cultural", "beach", "nature"]
+  },
+  {
+    "id": "dest-011",
+    "name": "Paris",
+    "country": "France",
+    "region": "europe",
+    "image": "images/destinations/paris.jpg",
+    "shortDescription": "City of light and love, known for iconic landmarks, art, fashion, and gastronomy.",
+    "fullDescription": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.",
+    "rating": 4.7,
+    "bestTimeToVisit": "April to June and October to early November",
+    "language": "French",
+    "currency": "Euro (EUR)",
+    "activities": [
+      "Visit the Eiffel Tower",
+      "Explore the Louvre Museum",
+      "Stroll along the Seine River",
+      "Tour Notre-Dame Cathedral",
+      "Enjoy French cuisine at local bistros"
+    ],
+    "interests": ["cultural", "urban", "food"]
+  },
+  {
+    "id": "dest-012",
+    "name": "Serengeti National Park",
+    "country": "Tanzania",
+    "region": "africa",
+    "image": "images/destinations/serengeti.jpg",
+    "shortDescription": "Iconic savanna known for its annual migration of over 1.5 million wildebeest and 250,000 zebra.",
+    "fullDescription": "The Serengeti National Park is a vast ecosystem in northern Tanzania, spanning 14,750 square kilometers. It is renowned for its annual migration of over 1.5 million wildebeest and 250,000 zebra and for its numerous Nile crocodile and honey badger. The park is Tanzania's oldest and most popular national park, also known for its high density of predators.",
+    "rating": 4.9,
+    "bestTimeToVisit": "June to October (dry season)",
+    "language": "Swahili, English",
+    "currency": "Tanzanian Shilling (TZS)",
+    "activities": [
+      "Safari game drives",
+      "Witness the Great Migration",
+      "Hot air balloon rides",
+      "Bird watching",
+      "Cultural visits to Maasai villages"
+    ],
+    "interests": ["adventure", "nature"]
+  },
+  {
+    "id": "dest-013",
+    "name": "Venice",
+    "country": "Italy",
+    "region": "europe",
+    "image": "images/destinations/venice.jpg",
+    "shortDescription": "Romantic city built on a lagoon, famous for its canals, gondolas, and historic architecture.",
+    "fullDescription": "Venice, the capital of northern Italy's Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals – including the Grand Canal thoroughfare – lined with Renaissance and Gothic palaces. The central square, Piazza San Marco, contains St. Mark's Basilica, which is tiled with Byzantine mosaics, and the Campanile bell tower offering views of the city's red roofs.",
+    "rating": 4.6,
+    "bestTimeToVisit": "April to June and September to October",
+    "language": "Italian",
+    "currency": "Euro (EUR)",
+    "activities": [
+      "Gondola ride through canals",
+      "Visit St. Mark's Basilica",
+      "Tour Doge's Palace",
+      "Explore Murano and Burano islands",
+      "Attend Venice Carnival (February)"
+    ],
+    "interests": ["cultural", "urban", "food"]
+  },
+  {
+    "id": "dest-014",
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "region": "south-america",
+    "image": "images/destinations/rio.jpg",
+    "shortDescription": "Vibrant coastal city known for its beaches, carnival celebrations, and iconic Christ the Redeemer statue.",
+    "fullDescription": "Rio de Janeiro is a huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches, 38m Christ the Redeemer statue atop Mount Corcovado and for Sugarloaf Mountain, a granite peak with cable cars to its summit. The city is also known for its sprawling favelas (shanty towns). Its raucous Carnaval festival, featuring parade floats, flamboyant costumes and samba dancers, is considered the world's largest.",
+    "rating": 4.5,
+    "bestTimeToVisit": "December to March",
+    "language": "Portuguese",
+    "currency": "Brazilian Real (BRL)",
+    "activities": [
+      "Visit Christ the Redeemer",
+      "Ride cable car to Sugarloaf Mountain",
+      "Relax on Copacabana Beach",
+      "Experience Carnival festivities",
+      "Explore Tijuca National Park"
+    ],
+    "interests": ["cultural", "urban", "beach", "adventure"]
+  },
+  {
+    "id": "dest-015",
+    "name": "Sydney",
+    "country": "Australia",
+    "region": "oceania",
+    "image": "images/destinations/sydney.jpg",
+    "shortDescription": "Vibrant harbor city with iconic Opera House, beautiful beaches, and cosmopolitan lifestyle.",
+    "fullDescription": "Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby. Sydney Tower's outdoor platform, the Skywalk, offers 360-degree views of the city and suburbs.",
+    "rating": 4.7,
+    "bestTimeToVisit": "September to November and March to May",
+    "language": "English",
+    "currency": "Australian Dollar (AUD)",
+    "activities": [
+      "Tour Sydney Opera House",
+      "Climb Sydney Harbour Bridge",
+      "Relax at Bondi Beach",
+      "Visit Taronga Zoo",
+      "Explore Royal Botanic Garden"
+    ],
+    "interests": ["urban", "beach", "cultural"]
+  },
+  {
+    "id": "dest-016",
+    "name": "Marrakech",
+    "country": "Morocco",
+    "region": "africa",
+    "image": "images/destinations/marrakech.jpg",
+    "shortDescription": "Ancient imperial city known for its vibrant souks, gardens, and historic palaces.",
+    "fullDescription": "Marrakesh, a former imperial city in western Morocco, is a major economic center and home to mosques, palaces and gardens. The medina is a densely packed, walled medieval city dating to the Berber Empire, with mazelike alleys where thriving souks (marketplaces) sell traditional textiles, pottery and jewelry. A symbol of the city, and visible for miles, is the Moorish minaret of 12th-century Koutoubia Mosque.",
+    "rating": 4.6,
+    "bestTimeToVisit": "March to May and October to November",
+    "language": "Arabic, Berber, French",
+    "currency": "Moroccan Dirham (MAD)",
+    "activities": [
+      "Explore Jemaa el-Fnaa square",
+      "Visit Bahia Palace",
+      "Wander through Majorelle Garden",
+      "Shop in the souks",
+      "Take a hammam spa experience"
+    ],
+    "interests": ["cultural", "urban", "food"]
+  },
+  {
+    "id": "dest-017",
+    "name": "Reykjavik",
+    "country": "Iceland",
+    "region": "europe",
+    "image": "images/destinations/reykjavik.jpg",
+    "shortDescription": "World's northernmost capital city, gateway to Iceland's natural wonders and geothermal features.",
+    "fullDescription": "Reykjavik, on the coast of Iceland, is the country's capital and largest city. It's home to the National and Saga museums, tracing Iceland's Viking history. The striking concrete Hallgrimskirkja church and rotating Perlan glass dome offer sweeping views of the sea and nearby hills. Exemplifying the island's volcanic activity is the geothermal Blue Lagoon spa, near the village of Grindavik.",
+    "rating": 4.8,
+    "bestTimeToVisit": "June to August for midnight sun, September to March for Northern Lights",
+    "language": "Icelandic",
+    "currency": "Icelandic Króna (ISK)",
+    "activities": [
+      "See the Northern Lights",
+      "Relax in Blue Lagoon",
+      "Visit Hallgrimskirkja Church",
+      "Tour the Golden Circle",
+      "Whale watching"
+    ],
+    "interests": ["adventure", "nature", "cultural"]
+  },
+  {
+    "id": "dest-018",
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "asia",
+    "image": "images/destinations/dubai.jpg",
+    "shortDescription": "Futuristic city with record-breaking skyscrapers, luxury shopping, and desert adventures.",
+    "fullDescription": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks.",
+    "rating": 4.7,
+    "bestTimeToVisit": "November to April",
+    "language": "Arabic, English",
+    "currency": "United Arab Emirates Dirham (AED)",
+    "activities": [
+      "Visit Burj Khalifa",
+      "Shop at Dubai Mall",
+      "Experience desert safari",
+      "Explore Palm Jumeirah",
+      "Enjoy Dubai Fountain show"
+    ],
+    "interests": ["urban", "beach", "adventure"]
+  }
+]
